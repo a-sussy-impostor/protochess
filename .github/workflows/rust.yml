@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: protochess-server-rs/Cargo build --verbose
+      run: protochess-server-rs/Cargo.toml build --verbose
